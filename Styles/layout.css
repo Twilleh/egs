@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+header {
+	height : 300px;
+    margin-left:75px;
+    margin-right: 100px;
+    
+    width: 100%;
+        
+}   
+
+nav {
+	width : 250px;  
+	float : left;   
+	height: 750px;
+    
+    
+    
+}
+
+#main {
+	margin-left: 250px;    
+    
+}
+
+footer {
+	margin-top: 50px;
+}
+
+.floatright{
+    float: right;
+    margin-left: 30px;
+}
+
+nav a:hover,
+nav a:active {
+    background: yellow;
+    color: darkgoldenrod;
+}
+
+.navbar {
+    
+    width: 125px;
+    
+}
+.thispage {
+    font-weight: bold;
+    background: transparent;
+    color: #4F221D;
+}
+body{
+    background-color:beige;
+    font-family: Georgia, "Century Gothic", Arial;
+    font-size: 16pt;
+}
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: lightgrey;
+}
+
+h1, h2{
+    color: darkgoldenrod;
+    font-family: fantasy; 
+}
+
+table {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: darkgoldenrod;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+th {
+    color: black;
+    
+    
+}
+
+tr.stripe {
+    background-color: darkgoldenrod;
+}
+
+td.bolder {
+    font-weight: bold;
+}
+
+caption {
+    caption-side: bottom;
+    font-style: italic;
+}
