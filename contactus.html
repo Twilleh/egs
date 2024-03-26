@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Mariachi Ruelas</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+       
+        <div>
+            <img class="logo" src="images/Logo2.png" alt="logo">
+        </div>
+        
+        <div class="container">
+            <a href="index.html" class="item">Home</a>
+            <a href="about.html" class="item">About us</a>
+            <a href="songs.html" class="item">Songs</a>
+            <a href="#" class="last-item">Contact Us</a>
+        </div>
+
+        <div class="intro">
+            <h1>Contact/Contacto</h1>
+            <p>If you would like to get a call from us, please provide us the following information so we can better assist in
+               planning for your event.
+            </p>
+            <p>Si gustas recibir una llamada de nosotros, por favor proviene la siguiente información para poderte asistir mejor
+               en planear para tu evento.
+            </p>
+        </div>
+        
+
+        <form action="https://formsubmit.co/mariachiruelasie@gmail.com" method="POST" autocomplete="on" >
+            <label for="first-name">Name/Nombre</label><br><br>
+            <input type="text" id="first-name" name="first-name" placeholder="name/nombre"  required><br><br>
+            <label for="last-name">Last Name/Apellido</label><br><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name/Apellido"  required><br><br>
+            <label for="phone">Phone/Teléfono:</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="123-457-7890" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" required><br><br>
+            
+            <label for="date">Event Date/Fecha del Evento:</label>
+            <input type="date" id="date" name="date">
+            <input type="submit">
+        </form>
+        <br>
+        <br>
+        
+        
+        <div class="footer">
+            <a href="https://www.facebook.com/profile.php?id=61554887216705" class="fa fa-facebook"><img src="images/Facebook_Logo_Primary.png"
+                style="height: 32px; width: 32px;" alt="facebook"></a>
+            <a href="https://www.instagram.com/edgar.ruelas.9/" class="fa fa-instagram"><img src="images/Instagram_Glyph_Gradient.png" style="height: 32px; width: 32px;" alt="instagram"></a>
+        </div>
+   
+        
+        
+    </body>
+</html>
