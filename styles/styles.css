@@ -90,10 +90,10 @@ form {
 body {
   font-size: 16pt;
 }
-a {
+p a {
     text-decoration: none;
     color: blue;
 }
-a:hover {
+p a:hover {
     color: red;
 }
