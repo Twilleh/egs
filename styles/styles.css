@@ -88,7 +88,12 @@ form {
 }
 
 body {
-  
-  
   font-size: 16pt;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: red;
 }
