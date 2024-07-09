@@ -89,6 +89,8 @@ form {
 
 body {
   font-size: 16pt;
+  margin: 20px 10%;
+  padding: 0;
 }
 p a {
     text-decoration: none;
